@@ -1,12 +1,25 @@
 MEDICAL DATA VISUALIZER
 
-This project analyzes patient data from a medical examination CSV file to generate insightful visualizations. 
-It includes:
+This project analyzes and visualizes medical examination data using Seaborn. It includes a categorical bar 
+plot and a heatmap to explore correlations and distributions in health-related variables.
 
-   •    A categorical plot that shows the distribution of health-related features (like cholesterol, 
-        smoking habits, and activity level) split by the presence or absence of cardiovascular disease.
+FEATURES:
+   •    Adds an overweight column based on BMI
+   •    Normalizes cholesterol and gluc values
+   •    Filters data for outliers and inconsistent values
+   •    Generates:
+        •    Categorical Plot: Visual comparison of health variables across cardiovascular conditions
+        •    Heatmap: Correlation matrix of cleaned dataset
 
-   •    A heatmap that reveals correlations between medical metrics such as blood pressure, BMI, cholesterol, and more.
+FILES:
+   •    medical_examination.csv – Input dataset
+   •    medical_data_visualizer.py – Main analysis script
+   •    catplot.png – Output categorical plot
+   •    heatmap.png – Output heatmap
 
-The project includes data preprocessing, feature engineering (like calculating BMI-based overweight status), 
-and visual storytelling using Seaborn and Matplotlib.
+REQUIREMENTS:
+   •    Python 3.x
+   •    pandas
+   •    seaborn
+   •    matplotlib
+   •    numpy
