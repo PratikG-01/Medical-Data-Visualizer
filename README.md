@@ -28,8 +28,13 @@ FILES:
    •    heatmap.png – Output heatmap
 
 REQUIREMENTS:
+
    •    Python 3.x
+   
    •    pandas
+   
    •    seaborn
+   
    •    matplotlib
+   
    •    numpy
