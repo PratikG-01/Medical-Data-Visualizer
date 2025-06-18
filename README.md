@@ -4,6 +4,7 @@ This project analyzes and visualizes medical examination data using Seaborn. It 
 plot and a heatmap to explore correlations and distributions in health-related variables.
 
 FEATURES:
+
    •    Adds an overweight column based on BMI
    •    Normalizes cholesterol and gluc values
    •    Filters data for outliers and inconsistent values
