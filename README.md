@@ -3,6 +3,7 @@ MEDICAL DATA VISUALIZER
 This project analyzes and visualizes medical examination data using Seaborn. It includes a categorical bar 
 plot and a heatmap to explore correlations and distributions in health-related variables.
 
+
 FEATURES:
 
    •    Adds an overweight column based on BMI
@@ -17,6 +18,7 @@ FEATURES:
         
         •    Heatmap: Correlation matrix of cleaned dataset
 
+
 FILES:
 
    •    medical_examination.csv – Input dataset
@@ -26,6 +28,7 @@ FILES:
    •    catplot.png – Output categorical plot
    
    •    heatmap.png – Output heatmap
+
 
 REQUIREMENTS:
 
